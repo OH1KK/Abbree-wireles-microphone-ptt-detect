@@ -6,6 +6,7 @@ Instead it is needed to detect PTT key down (push) from KEY_FASTFORWARD event an
 
 Just see the code ptt-test.py
 
+![Picture of Abbree bluetooth microphone](abbreejpg)
 
 ````
 user@pc:~$ evtest /dev/input/event27 
