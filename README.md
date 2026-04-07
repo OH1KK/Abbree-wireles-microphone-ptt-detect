@@ -2,7 +2,7 @@ Abbree wireless microphone that can be used with ham radio transceiver. Device c
 
 You can also pair microphone with PC using bluetooth. However, in bluetooth mode there is no easy PTT down key event and PTT up event. 
 
-Instead it is needed to detect PTT down from KEY_FASTFORWARD event and PTT up from KEY_REWIND.
+Instead it is needed to detect PTT key down (push) from KEY_FASTFORWARD event and PTT key up (release) from KEY_REWIND. KEY_FASTFORWARD events are only sent for few seconds, so it cannot alone be used to detect PTT down.
 
 Just see the code ptt-test.py
 
